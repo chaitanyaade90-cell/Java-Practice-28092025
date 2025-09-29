@@ -14,12 +14,17 @@ public class ListExanmple1 {
 		fruits.add("Mango");
 		fruits.add("Pineapple");
 		
-		System.out.println(fruits);
+		System.out.println("fruits: " + fruits);
 		
-	     while ("fruits" != "Banana") {
+		for (int i = 0; i < 5; i++) {
+			
+			System.out.println("All fruits are Sweet");
+			
+		}
+		
+	    
 			
 		}
 		
 	}
 
-}
