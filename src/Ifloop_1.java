@@ -11,17 +11,23 @@ public class Ifloop_1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		for (int i = 0; i < 100; i++) {
+		List<String>Cars=new ArrayList<>();
+		
+		Cars.add("Moto x");
+		Cars.add("Bugati");
+		Cars.add("Nope");
+		Cars.add("Moto x");
+		
+		
+		
+		for (int i = 0; i < Cars.size(); i++) {
 			
-			System.out.println(i);
+		
+			if(Cars.get(i).contains("Moto")) {
+				System.out.println(Cars.get(i));
+			}
 			
-			List<String>Cars=new ArrayList<>();
-			
-			Cars.add("Moto");
-			Cars.add("Bugati");
-			Cars.add("Nope");
-			
-			System.out.println(Cars);
+		
 		}
 
 	}
