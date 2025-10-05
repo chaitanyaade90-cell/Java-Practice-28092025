@@ -13,7 +13,7 @@ class A{
 
 }
 
-class B 
+class B extends A
 {
 	int b=20;
 
@@ -28,9 +28,13 @@ public class Inheritance_1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//A obA=new A();
-		//obA.inherit();
+		A obA=new A();
+		obA.inherit();
 
+		System.out.println("******************");
+		B obB=new B();
+		obB.inherit();
+		obB.inherit2();
 
 
 
