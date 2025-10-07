@@ -15,8 +15,8 @@ class A
 	
 }
 
-class B
-{
+class B 
+{ 
 	
 	int B=20;
 	void inherit2() {

@@ -17,7 +17,7 @@ public class Map_Loop_example {
 		
 		for(Map.Entry<Integer, String> entry : employees.entrySet());
 		
-		System.out.println();
+		System.out.println(employees);
 		
 
 	}
