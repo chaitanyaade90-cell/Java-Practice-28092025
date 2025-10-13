@@ -1,6 +1,6 @@
 package pckg_Inheritance_06_10_2025;
 
-class A
+class D
 {
 	
 	int a=10;
@@ -12,7 +12,7 @@ class A
 	
 }
 
-class B
+class E
 {
 	int b=20;
 	
@@ -29,12 +29,12 @@ public class Inheritance_2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		A obj=new A();
+		D obj=new D();
 		obj.inherit();
 		
 		System.out.println("***********");
 		
-		B obB=new B();
+		E obB=new E();
 		obB.inherit2();
 		System.out.println("*********");
 		
